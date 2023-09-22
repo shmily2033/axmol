@@ -243,6 +243,7 @@ def main():
                     'ax_webview.ini' : ('ax_webview', 'axlua_webview_auto'), \
                     'ax_physics3d.ini' : ('ax_physics3d', 'axlua_physics3d_auto'), \
                     'ax_navmesh.ini' : ('ax_navmesh', 'axlua_navmesh_auto'), \
+                    'ax_fairygui.ini' : ('ax_fairygui', 'axlua_fairygui_auto'), \
                     }
         target = 'lua'
         generator_py = '%s/generator.py' % cxx_generator_root
