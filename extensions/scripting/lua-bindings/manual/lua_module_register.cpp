@@ -59,12 +59,12 @@ int lua_module_register(lua_State* L)
 {
     // Don't change the module register order unless you know what your are doing
     register_network_module(L);
-    register_cocostudio_module(L);
+    // register_cocostudio_module(L);
     register_ui_module(L);
     register_extension_module(L);
     // TODO arnold
     register_spine_module(L);
-    register_cocos3d_module(L);
+    // register_cocos3d_module(L);
     register_audioengine_module(L);
 #if AX_USE_3D_PHYSICS && AX_ENABLE_BULLET_INTEGRATION
     register_physics3d_module(L);
